@@ -3,7 +3,7 @@ function Add() {
   console.log('Constructor', count);
 
   this.toString = function() {
-    console.log('toSSSSTring');
+    console.log('toSTring call by default');
     return count++;
   }
   this.toObject = function() {
